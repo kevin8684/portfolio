@@ -1,0 +1,87 @@
+<link href="https://fonts.googleapis.com/css?family=Arimo|Raleway" rel="stylesheet">
+
+body{
+    margin: 0;
+}
+
+/*------------------------NAV bar styles start----------------------------*/
+#navbar{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    align-content: flex-start;
+    align-items: flex-start;
+    background-color: #2B2E2D;
+    top: 0px;
+    padding: 15px;
+}
+
+#navbar a {
+    margin: 10px 5px 5px;
+    padding: 5px 15px 5px ;
+    background-color: #C7C4C5;
+    text-decoration: none;
+    color: black;
+    transition: .5s;
+    align-self:center;
+    font-family: 'Arimo', sans-serif;
+}
+
+.navbar a:hover{
+    background-color: white;
+}
+
+#navbox{
+    width:100vw;
+    display: flex;
+     display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    align-content: flex-start;
+    align-items: flex-start;
+    background-color: #2B2E2D;
+    top: 0px;
+    padding: 15px;
+}
+
+#logo{
+    width:75px;
+    border-radius: 100%;
+    border: 3px solid white;
+    align-self:center
+}
+
+/*------------------------NAV bar styles end----------------------------*/
+
+/*------------------------HOME styles start----------------------------*/
+
+#homeimage{
+    background-image: url(/images/homeimage.jpg);
+    height: 60vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: space-between;
+    align-items: stretch;
+}
+
+#hometitle{
+    margin: 0;
+    order: 0;
+    flex: 0 1 auto;
+    align-self: center;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+
+
+
+
+
