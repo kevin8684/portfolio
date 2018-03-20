@@ -4,37 +4,47 @@
 <head>
     <meta charset="UTF-8">
     <title>Home Page</title>
-    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 
-<body>
+<body class="body">
     <nav id="navbar">
-        <img id="logo" src="/images/logo.jpg" alt="logo">
-        <div id="navbox">
-            <a href="home">Home</a>
-            <a href="resume">Resume</a>
-            <a href="contact">Contact</a>
-            <a href="dropdown">Dropdown</a>
-            <a href="photography">Photography</a>
+        <img id="logo" src="images/logo.jpg" alt="logo">
+        <a href="home">Home</a>
+        <a href="resume">Resume</a>
+        <a href="contact">Contact</a>
+        <a href="photography">Photography</a>
+        <div class="dropdown">
+            <button class="dropbtn">Dropdown 
+                  <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="#">Link 1</a>
+                <a href="#">Link 2</a>
+                <a href="#">Link 3</a>
+            </div>
         </div>
     </nav>
+
     <div id="homeimage">
         <h1 id="hometitle">Kevin Voth</h1>
     </div>
-    
-       <div id="homearticle">
+
+    <div class="row" id="homearticle">
         <div>
-            <h1>Welcome</h1>
-            <img src="http://via.placeholder.com/350x500" alt="">
+            <img class="row" src="images/me.png" alt="">
         </div>
-        <aside>
+        <aside class="homedesc">
+            <h1>Welcome to my Portfolio</h1>
+            <br>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae aspernatur, nulla iusto animi ab reprehenderit veritatis alias sed provident, quam blanditiis ducimus, deserunt omnis repellendus officia in esse ipsam veniam! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet doloremque quae aliquid excepturi incidunt atque, vitae! Eius commodi delectus consectetur neque voluptates saepe, placeat odio, illo cupiditate pariatur, corporis dolores.</p>
         </aside>
     </div>
 
 
 
-<footer></footer>
+    <footer></footer>
 
 </body>
+
 </html>

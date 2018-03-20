@@ -1,11 +1,16 @@
-<link href="https://fonts.googleapis.com/css?family=Arimo|Raleway" rel="stylesheet">
+body {
+    margin: 0;
+    padding: 0;
+}
 
-body{
-    margin 0px;
+.row {
+    max-width: 1280px;
+    margin: 0 auto;
 }
 
 /*------------------------NAV bar styles start----------------------------*/
-#navbar{
+
+#navbar {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -19,23 +24,23 @@ body{
 
 #navbar a {
     margin: 10px 5px 5px;
-    padding: 5px 15px 5px ;
-    background-color: #C7C4C5;
+    padding: 5px 15px 5px;
     text-decoration: none;
-    color: black;
+    color: white;
+    font-size: 16px;
     transition: .5s;
-    align-self:center;
+    align-self: center;
     font-family: 'Arimo', sans-serif;
 }
 
-.navbar a:hover{
+.navbar a:hover {
     background-color: white;
 }
 
-#navbox{
-    width:100vw;
+#navbox {
+    width: 100vw;
     display: flex;
-     display: flex;
+    display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: flex-end;
@@ -46,19 +51,59 @@ body{
     padding: 15px;
 }
 
-#logo{
-    width:75px;
+#logo {
+    width: 75px;
     border-radius: 100%;
     border: 3px solid white;
-    align-self:center
+    align-self: center
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    padding: 15px;
+    margin: 0;
+    background-color: #2B2E2D;
+    color: white;
+}
+
+/*
+.navbar a:hover,
+.dropdown:hover .dropbtn {
+    background-color: red;
+}
+*/
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    background-color: white;
+    color: #2B2E2D;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
 }
 
 /*------------------------NAV bar styles end----------------------------*/
 
 /*------------------------HOME styles start----------------------------*/
 
-#homeimage{
-    background-image: url(/images/homeimage.jpg);
+#homeimage {
+    background-image: url(../images/homeimage.jpg);
     height: 60vh;
     background-repeat: no-repeat;
     background-size: cover;
@@ -70,7 +115,7 @@ body{
     align-items: stretch;
 }
 
-#hometitle{
+#hometitle {
     margin: 0;
     order: 0;
     flex: 0 1 auto;
@@ -79,25 +124,27 @@ body{
     font-family: 'Raleway', sans-serif;
 }
 
-#homearticle{
+#homearticle {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    justify-content: center;
-    align-content: space-around;
+    justify-content: space-between;
+    align-content: flex-start;
     align-items: center;
 }
 
-
+.homedesc {
+    margin-left: 10vw;
+}
 
 /*------------------------HOME styles end----------------------------*/
 
 /*------------------------footer styles start---------------------------*/
 
-footer{
+footer {
     height: 10vh;
-    background-color:  #2B2E2D;
-    
+    background-color: #2B2E2D;
+
 }
 
 
@@ -105,16 +152,17 @@ footer{
 
 /*-----------------------Resume page styles----------------------------*/
 
-
 /*-----------------------Resume page styles end----------------------------*/
 
 /*------------------------Universal styles start----------------------------*/
-.margin{
-    margin-left:20vh; 
-    margin-right:20vh; 
+
+.margin {
+    margin-left: 10vh;
+    margin-right: 10vh;
 }
 
-.textspacing{
+.textspacing {
     line-height: 1.8;
 }
 
+<link href="https://fonts.googleapis.com/css?family=Arimo|Raleway" rel="stylesheet" >
