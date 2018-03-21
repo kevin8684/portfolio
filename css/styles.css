@@ -12,17 +12,14 @@ body {
 
 #navbar {
     display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
+    flex-direction:row;
     justify-content: flex-end;
-    align-content: flex-start;
-    align-items: flex-start;
     background-color: #2B2E2D;
     top: 0px;
     padding: 15px;
 }
 
-#navbar a {
+#navtag {
     margin: 10px 5px 5px;
     padding: 5px 15px 5px;
     text-decoration: none;
@@ -34,38 +31,29 @@ body {
 }
 
 .navbar a:hover {
-    background-color: white;
-}
-
-#navbox {
-    width: 100vw;
-    display: flex;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: flex-end;
-    align-content: flex-start;
-    align-items: flex-start;
-    background-color: #2B2E2D;
-    top: 0px;
-    padding: 15px;
+    color: black;
 }
 
 #logo {
     width: 75px;
     border-radius: 100%;
     border: 3px solid white;
-    align-self: center
+    align-self: left;
 }
 
 .dropdown .dropbtn {
     font-size: 16px;
-    border: none;
-    outline: none;
-    padding: 15px;
-    margin: 0;
     background-color: #2B2E2D;
     color: white;
+    align-self: center;
+    font-family: 'Arimo', sans-serif;
+    align-self: center;
+    margin-right: 5vw;
+}
+
+.dropdown{
+    height: 16px;
+    align-self: center
 }
 
 /*
@@ -87,16 +75,30 @@ body {
 
 .dropdown-content a {
     float: none;
-    color: black;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
     text-align: left;
+    color: #2B2E2D;
+    font-family: 'Arimo', sans-serif;
 }
 
 .dropdown:hover .dropdown-content {
     display: block;
 }
+
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+
+i {
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+}
+
 
 /*------------------------NAV bar styles end----------------------------*/
 
