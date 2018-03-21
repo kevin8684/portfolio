@@ -53,15 +53,14 @@ body {
 
 .dropdown{
     height: 16px;
-    align-self: center
+    align-self: center;
 }
 
-/*
-.navbar a:hover,
-.dropdown:hover .dropbtn {
-    background-color: red;
+#navtags{
+    display: flex;
+    width: 100vw;
+    align-items: flex-end;
 }
-*/
 
 .dropdown-content {
     display: none;
@@ -133,10 +132,16 @@ i {
     justify-content: space-between;
     align-content: flex-start;
     align-items: center;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
 }
 
 .homedesc {
     margin-left: 10vw;
+}
+
+.me{
+    border: 8px solid #2B2E2D;
 }
 
 /*------------------------HOME styles end----------------------------*/
