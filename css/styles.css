@@ -14,7 +14,7 @@ body {
     display: flex;
     flex-direction:row;
     justify-content: flex-end;
-    background-color: wjite;
+    background-color: white;
     top: 0px;
     padding: 15px;
 }
