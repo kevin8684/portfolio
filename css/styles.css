@@ -178,12 +178,14 @@ footer {
 /*-----------------------Contact page styles start----------------------------*/
 
 .contactheader{
-    background-image: url(/images/contactimage.jpg);
+    background-image: url(/images/contactimage.jpeg);
     height: 60vh;
-    background-repeat: no-repeat;
-    background-size: cover;
     display: flex;
     justify-content: center;
+        background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .contactbox{
