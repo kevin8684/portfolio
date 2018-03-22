@@ -14,7 +14,7 @@ body {
     display: flex;
     flex-direction:row;
     justify-content: flex-end;
-    background-color: #2B2E2D;
+    background-color: wjite;
     top: 0px;
     padding: 15px;
 }
@@ -23,13 +23,18 @@ body {
     margin: 10px 5px 5px;
     padding: 5px 15px 5px;
     text-decoration: none;
-    color: white;
+    color: #2B2E2D;
     font-size: 16px;
     transition: .5s;
     align-self: center;
     font-family: 'Arimo', sans-serif;
 }
 
+
+#navtag:hover{
+    background-color: #2A80BB;
+    color: white;
+}
 
 #logo {
     width: 75px;
@@ -40,17 +45,17 @@ body {
 
 .dropdown .dropbtn {
     font-size: 16px;
-    background-color: #2B2E2D;
-    color: white;
+    color: #2B2E2D;
     align-self: center;
     font-family: 'Arimo', sans-serif;
     align-self: center;
-    margin-right: 5vw;
 }
 
 .dropdown{
     align-self: center;
 }
+
+
 
 #navtags{
     display: flex;
@@ -80,6 +85,7 @@ body {
 
 .dropdown:hover .dropdown-content {
     display: block;
+    color: white;
 }
 
 .down {
@@ -88,10 +94,11 @@ body {
 }
 
 i {
-    border: solid white;
+    border: solid #2B2E2D;
     border-width: 0 3px 3px 0;
     display: inline-block;
     padding: 3px;
+    border-radius: 50%;
 }
 
 
