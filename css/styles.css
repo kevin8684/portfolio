@@ -30,15 +30,12 @@ body {
     font-family: 'Arimo', sans-serif;
 }
 
-.navbar a:hover {
-    color: black;
-}
 
 #logo {
     width: 75px;
     border-radius: 100%;
     border: 3px solid white;
-    align-self: left;
+    align-self: center;
 }
 
 .dropdown .dropbtn {
@@ -52,14 +49,13 @@ body {
 }
 
 .dropdown{
-    height: 16px;
     align-self: center;
 }
 
 #navtags{
     display: flex;
     width: 100vw;
-    align-items: flex-end;
+    flex-direction:row-reverse;
 }
 
 .dropdown-content {
@@ -103,18 +99,28 @@ i {
 
 /*------------------------HOME styles start----------------------------*/
 
+/*
 #homeimage {
     background-image: url(../images/homeimage.jpg);
     height: 60vh;
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
     justify-content: center;
-    align-content: space-between;
-    align-items: stretch;
 }
+*/
+
+#homeimage{
+    background-image: url(/images/homeimage.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:80vh;
+    display: flex;
+    justify-content: center;
+}
+
 
 #hometitle {
     margin: 0;
@@ -123,6 +129,7 @@ i {
     align-self: center;
     color: white;
     font-family: 'Raleway', sans-serif;
+    text-shadow: 1px 5px 10px black;
 }
 
 #homearticle {
@@ -161,6 +168,34 @@ footer {
 
 /*-----------------------Resume page styles end----------------------------*/
 
+/*-----------------------Contact page styles start----------------------------*/
+
+.contactheader{
+    background-image: url(/images/contactimage.jpg);
+    height: 60vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+
+.contactbox{
+    display: flex;
+    align-items: 
+}
+
+.contactcontent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+
+/*----------------------Contact page styles end----------------------------*/
+
+
+
 /*------------------------Universal styles start----------------------------*/
 
 .margin {
@@ -171,5 +206,13 @@ footer {
 .textspacing {
     line-height: 1.8;
 }
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+
 
 <link href="https://fonts.googleapis.com/css?family=Arimo|Raleway" rel="stylesheet" >
