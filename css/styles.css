@@ -1,6 +1,7 @@
 body {
     margin: 0;
     padding: 0;
+    font-family: 'Arimo', sans-serif;
 }
 
 .row {
@@ -27,7 +28,6 @@ body {
     font-size: 16px;
     transition: .5s;
     align-self: center;
-    font-family: 'Arimo', sans-serif;
 }
 
 
@@ -103,7 +103,7 @@ body {
 */
 
 #homeimage{
-    background-image: url(/images/homeimage.jpg);
+    background-image: url(../images/homeimage.jpg);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
