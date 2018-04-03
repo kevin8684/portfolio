@@ -13,7 +13,7 @@ body {
 
 #navbar {
     display: flex;
-    flex-direction:row;
+    flex-direction: row;
     justify-content: flex-end;
     background-color: white;
     top: 0px;
@@ -31,7 +31,7 @@ body {
 }
 
 
-#navtag:hover{
+#navtag:hover {
     background-color: #2A80BB;
     color: white;
 }
@@ -50,16 +50,16 @@ body {
     align-self: center;
 }
 
-.dropdown{
+.dropdown {
     align-self: center;
 }
 
 
 
-#navtags{
+#navtags {
     display: flex;
     width: 100vw;
-    flex-direction:row-reverse;
+    flex-direction: row-reverse;
 }
 
 .dropdown-content {
@@ -102,17 +102,27 @@ body {
 }
 */
 
-#homeimage{
+#homeimage {
     background-image: url(../images/homeimage.jpg);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height:80vh;
+    height: 70vh;
     display: flex;
     justify-content: center;
 }
 
+#homepattern {
+    background-image: url(../images/homepattern.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+}
 
 #hometitle {
     margin: 0;
@@ -137,15 +147,16 @@ body {
 
 .homedesc {
     margin-left: 10vw;
+    margin-right: 5vw;
 }
 
-.me{
+.me {
     border: 8px solid #2B2E2D;
 }
 
 /*------------------------HOME styles end----------------------------*/
 
-/*------------------------footer styles start---------------------------*/
+/*------------------------footer styles start-------------------------*/
 
 footer {
     height: 10vh;
@@ -158,27 +169,52 @@ footer {
 
 /*-----------------------Resume page styles----------------------------*/
 
-/*-----------------------Resume page styles end----------------------------*/
+.resumeimage {
+    width: 300px;
+}
 
-/*-----------------------Contact page styles start----------------------------*/
+.resumecontent {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: flex-start;
+    align-items: center;
+}
 
-.contactheader{
+/*-----------------------Resume page styles end-------------------------*/
+
+/*-----------------------Contact page styles start----------------------*/
+
+.contactheader {
     background-image: url(/images/contactimage.jpg);
     height: 60vh;
     display: flex;
     justify-content: center;
-        background-attachment: fixed;
+    background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.contactbox{
+.contactpattern {
+    background-image: url(/images/contactpadern.jpeg);
+    height: 60vh;
     display: flex;
-    align-items: 
+    justify-content: center;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.contactcontent{
+.contactbox {
+    display: flex;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+}
+
+.contactcontent {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -186,11 +222,25 @@ footer {
     margin-right: 5vw;
 }
 
-/*----------------------Contact page styles end----------------------------*/
+/*----------------------Contact page styles end--------------------------*/
+
+/*------------------------About Me styles start--------------------------*/
+
+.aboutmecontent {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-content: flex-start;
+    align-items: center;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+}
 
 
+/*------------------------About Me styles end---------------------------*/
 
-/*------------------------Universal styles start----------------------------*/
+/*------------------------Universal styles start------------------------*/
 
 .margin {
     margin-left: 10vh;
@@ -201,12 +251,11 @@ footer {
     line-height: 1.8;
 }
 
-.center{
+.center {
     display: flex;
     justify-content: center;
     align-content: center;
 }
-
 
 
 <link href="https://fonts.googleapis.com/css?family=Arimo|Raleway" rel="stylesheet" >
