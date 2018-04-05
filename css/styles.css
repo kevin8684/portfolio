@@ -114,12 +114,12 @@ body {
 }
 
 #homepattern {
-    background-image: url(../images/homepattern.jpg);
+    background-image: url(../images/homeimage.jpg);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 60vh;
+    height: 55vh;
     display: flex;
     justify-content: center;
 }
@@ -143,6 +143,7 @@ body {
     align-items: center;
     margin-top: 10vh;
     margin-bottom: 10vh;
+    height: 55vh;
 }
 
 .homedesc {
@@ -150,7 +151,46 @@ body {
     margin-right: 5vw;
 }
 
+.mainbackground{
+    background-color: #2A80BB;
+}
 
+.homecard{
+    overflow:hidden;
+    width: 25%;
+    box-shadow: 6px 4px 8px 0 rgba(0,0,0,0.25);
+    max-width: 30%;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    border-radius: 1px;
+    margin-left: 10px;
+    margin-right: 10px
+}
+
+.cardimage{
+    max-height: 400px;
+    width: 100%;
+    overflow: hidden;
+    height: 200px;
+}
+
+#homecards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-content: flex-start;
+    align-items: center;
+    height: 55vh;
+}
+
+.cardtext{
+    margin: 0px;
+    text-align: center;
+    background-color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
 
 /*------------------------HOME styles end----------------------------*/
 
@@ -237,6 +277,32 @@ footer {
 
 
 /*------------------------About Me styles end---------------------------*/
+
+
+/*------------------------projects styles start-------------------------*/
+
+.projectsbox{
+     display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+}
+
+.projectdesc{
+    padding-left: 10vw;
+    padding-right: 10vw;
+}
+
+.projectimg{
+    box-shadow: 6px 4px 8px 0 rgba(0,0,0,0.3);
+}
+
+
+
+
+/*------------------------projects styles end-------------------------*/
 
 /*------------------------Universal styles start------------------------*/
 
