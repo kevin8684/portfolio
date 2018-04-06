@@ -4,6 +4,11 @@ body {
     font-family: 'Arimo', sans-serif;
 }
 
+html{
+    margin: 0px;
+    padding: 0px;
+}
+
 .row {
     max-width: 1280px;
     margin: 0 auto;
@@ -14,7 +19,6 @@ body {
 #logo {
     width: 75px;
     border-radius: 100%;
-    border: 3px solid white;
     align-self: center;
 }
 
@@ -22,7 +26,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-    background-color: white;
+    background-color: #f2f2f2;
     top: 0px;
     padding: 15px;
 }
@@ -56,24 +60,25 @@ body {
     color: #2B2E2D;
     transition: .5s;
     align-self: center;
+    background-size: cover;
 }
 
 #navtag1:hover {
     background-color: #2A80BB;
-    color: white;
+    color: #f2f2f2;
 }
 
 #navtag2:hover {
     background-color: #2A80BB;
-    color: white;
+    color: #f2f2f2;
 }
 
 #navtag3:hover {
     background-color: #2A80BB;
-    color: white;
+    color: #f2f2f2;
 }
 
-.dropdown .dropbtn {
+.dropbtn {
     font-size: 16px;
     font-family: 'Arimo', sans-serif;
     align-self: center;
@@ -94,7 +99,7 @@ body {
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
-    background-color: white;
+    background-color: #f2f2f2;
     color: #2B2E2D;
 }
 
@@ -108,7 +113,7 @@ body {
 
 .dropdown:hover .dropdown-content {
     display: block;
-    color: white;
+    color: #f2f2f2;
 }
 
 
@@ -154,7 +159,7 @@ body {
     order: 0;
     flex: 0 1 auto;
     align-self: center;
-    color: white;
+    color: #f2f2f2;
     font-family: 'Raleway', sans-serif;
     text-shadow: 1px 5px 10px black;
 }
@@ -177,30 +182,28 @@ body {
 }
 
 .mainbackground {
-    background-color: #2A80BB;
+    background-color: #6eb1de;
 }
 
 .me {
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    border-radius: 1px;
 }
 
 .homecard {
     overflow: hidden;
-    width: 25%;
     box-shadow: 6px 4px 8px 0 rgba(0, 0, 0, 0.25);
-    max-width: 30%;
     margin-top: 10vh;
     margin-bottom: 10vh;
     border-radius: 1px;
     margin-left: 10px;
-    margin-right: 10px
+    margin-right: 10px;
+    
 }
 
 .cardimage {
-    max-height: 400px;
-    width: 100%;
     overflow: hidden;
-    height: 200px;
+    height: 250px;
 }
 
 #homecards {
@@ -231,6 +234,29 @@ footer {
 
 }
 
+.footerlogo{
+    height: 10vh;
+    margin: 0px
+}
+
+.footerbox{
+    display: flex;
+    align-items: flex-end;
+}
+
+.copyright{
+}
+
+.footernav{
+}
+
+.footernavbtn{
+    text-decoration: none;
+    color: #f2f2f2;
+    padding: 5px;
+    margin: 5px;
+    background-color: #C5414C;
+}
 
 /*------------------------footer styles end----------------------------*/
 
@@ -304,38 +330,43 @@ footer {
     margin-bottom: 10vh;
 }
 
+.aboutmedesc{
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
 
 /*------------------------About Me styles end---------------------------*/
 
 /*------------------------projects styles start-------------------------*/
 
 .projectsbox {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: space-around;
-    align-content: space-around;
-    margin-top: 5vh
+    margin-top: 5vh;
+    margin-bottom: 5vh;
 }
 
 
 
 .projectimg {
     box-shadow: 6px 4px 8px 0 rgba(0, 0, 0, 0.3);
-    width: 95%;
+    width:45vw;
+    max-width: 30vw;
 }
 
 .projectimg2 {
     box-shadow: 6px 4px 8px 0 rgba(0, 0, 0, 0.3);
-    width: 95%;
+    width:45vw;
+    max-width: 30vw;
 }
 
 
 .paside {
-    width: 45%%;
+    display: flex;
 }
 
-
+.projectdesc{
+    margin-left: 5vw;
+    margin-right: 5vh
+}
 
 /*------------------------projects styles end-------------------------*/
 
