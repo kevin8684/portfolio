@@ -1,7 +1,9 @@
+
 body {
     margin: 0;
     padding: 0;
-    font-family: 'Arimo', sans-serif;
+    background-color: #f2f2f2;
+    font-family: 'Montserrat', sans-serif;
 }
 
 html{
@@ -29,6 +31,7 @@ html{
     background-color: #f2f2f2;
     top: 0px;
     padding: 15px;
+    padding-right: 5vw;
 }
 
 #navtag1 {
@@ -80,7 +83,6 @@ html{
 
 .dropbtn {
     font-size: 16px;
-    font-family: 'Arimo', sans-serif;
     align-self: center;
     margin: 10px 5px 5px;
     padding: 5px 15px 5px;
@@ -160,7 +162,6 @@ html{
     flex: 0 1 auto;
     align-self: center;
     color: #f2f2f2;
-    font-family: 'Raleway', sans-serif;
     text-shadow: 1px 5px 10px black;
 }
 
@@ -174,6 +175,8 @@ html{
     margin-top: 10vh;
     margin-bottom: 10vh;
     height: 55vh;
+    background-color: #4d4d4d;
+    height: 400px
 }
 
 .homedesc {
@@ -181,13 +184,22 @@ html{
     margin-right: 5vw;
 }
 
+.hometitle{
+    color: #f2f2f2;
+}
+
+.homeparagraph{
+    color: #f2f2f2;
+}
+
 .mainbackground {
-    background-color: #6eb1de;
+    background-color: #4d4d4d;
 }
 
 .me {
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     border-radius: 1px;
+    height: 55vh;
 }
 
 .homecard {
@@ -224,6 +236,10 @@ html{
     padding-bottom: 5px;
 }
 
+.card{
+    text-decoration: none;
+    color: #2B2E2D;
+}
 /*------------------------HOME styles end----------------------------*/
 
 /*------------------------footer styles start-------------------------*/
@@ -271,9 +287,12 @@ footer {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
-    align-content: flex-start;
+    align-content: center;
     align-items: center;
 }
+
+
+
 
 /*-----------------------Resume page styles end-------------------------*/
 
@@ -335,6 +354,18 @@ footer {
     margin-right: 5vw;
 }
 
+.aboutmeimage{
+    background-image: url(/images/keyboard.jpeg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    background-color: linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.5))
+}
+
 /*------------------------About Me styles end---------------------------*/
 
 /*------------------------projects styles start-------------------------*/
@@ -387,5 +418,4 @@ footer {
     align-content: center;
 }
 
-
-<link href="https://fonts.googleapis.com/css?family=Arimo|Raleway" rel="stylesheet" >
+<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
