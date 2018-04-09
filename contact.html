@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <title>Contact</title>
-    <link rel="stylesheet" href="css/styles.css"s>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 </head>
 
 <body>
@@ -13,6 +14,7 @@
             <div class="dropdown" id="navtag3">
                 <div class="dropbtn">Portfolio</div>
                 <div class="dropdown-content">
+                    <a href="projects.html">Projects</a>
                     <a href="resume.html">Resume</a>
                     <a href="contact.html">Contact Me</a>
                     <a href="writing.html">Writing</a>
@@ -24,21 +26,35 @@
     </nav>
 
     <div class="contactheader">
-
+        <h1 id="hometitle">Contact Me</h1>
     </div>
 
     <div class="contactbox row">
-                <div>
-            <img class="row me" src="/images/me.jpg" alt="">
+        <div>
+            <img class="row me2" src="images/me.jpg" alt="">
         </div>
-       <div class="contactcontent">
+        <div class="contactcontent">
             <h2>Contact Me: </h2>
-             <p class="textspacing">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis non laboriosam tempore odit eaque similique tempora dolorum eius inventore nostrum, quis animi ut, velit quaerat labore enim aliquam repellendus a.</p>
+            <p class="textspacing">Thank you for checking out my website! If you want to contact me, my phone number and email are down below. If you want me to contact you, please enter your email and name. </p>
             <p class="textspacing">(559)904-8684 contact me at this number or at ke8684@gmail.com</p>
+            <div>
+                <form action="">
+                    <h4>Name:</h4>
+                    <input type="text" name="name" required="">
+                    <h4>E-mail:</h4>
+                    <input type="email" name="email" required="">
+                    <h4>Phone</h4>
+                    <input type="tel" name="phone" pattern="^\d{3}-\d{3}-\d{4}$" required="">
+                    <input type="submit" value="Send">
+                    <input type="reset" value="Reset">
+                </form>
+            </div>
         </div>
     </div>
-    
-
-    <footer></footer>
+    <footer>
+       <div class="row">
+             <img src="/images/logoopp.jpg" alt="" class="footerlogo">
+        </div>
+    </footer>
 </body>
 </html>
